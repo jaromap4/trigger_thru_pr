@@ -50,7 +50,7 @@ class SurveyModel extends Model {
 	}
 
 	verifyCaptchaInput(input){
-		// commit 3
+		// commit 4
 		return 0; // to make the tes	t cases fail
 		if(input == this.captcha){
 			return 'Success! Captcha input matched.';
